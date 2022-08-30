@@ -6,8 +6,11 @@
 
 int main() 
 {
-	int evenNumber = 2;
-    int oddNumber  = 3;
+	int evenNumber ;
+    int oddNumber  ;
+	printf("Enter evenNumber oldNumber ");
+	scanf("%d%d", &evenNumber,&oddNumber);
+    
     printf("evenNumber: %d, oddNumber : %d\n", evenNumber, oddNumber);
     
 	swap(&evenNumber, &oddNumber);
